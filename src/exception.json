@@ -1,0 +1,69 @@
+{
+  "date": "Sat Jun 08 2024 20:56:33 GMT+0700 (Western Indonesia Time)",
+  "error": {},
+  "exception": true,
+  "level": "error",
+  "message": "uncaughtException: hello is not defined\nReferenceError: hello is not defined\n    at file:///D:/Fauzan/Projek-Fauzan/Fundamental-nodeJs-mongoDB-expressJs/Materi-NodeJS/nodeJs-bab-logging/src/logging-exception.js:12:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)",
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 259728.781
+  },
+  "process": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Fauzan\\Projek-Fauzan\\Fundamental-nodeJs-mongoDB-expressJs\\Materi-NodeJS\\nodeJs-bab-logging\\src\\logging-exception.js"
+    ],
+    "cwd": "D:\\Fauzan\\Projek-Fauzan\\Fundamental-nodeJs-mongoDB-expressJs\\Materi-NodeJS\\nodeJs-bab-logging\\src",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "gid": null,
+    "memoryUsage": {
+      "arrayBuffers": 10523,
+      "external": 1831445,
+      "heapTotal": 10174464,
+      "heapUsed": 6389016,
+      "rss": 34217984
+    },
+    "pid": 10548,
+    "uid": null,
+    "version": "v20.13.0"
+  },
+  "stack": "ReferenceError: hello is not defined\n    at file:///D:/Fauzan/Projek-Fauzan/Fundamental-nodeJs-mongoDB-expressJs/Materi-NodeJS/nodeJs-bab-logging/src/logging-exception.js:12:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)",
+  "trace": [
+    {
+      "column": 1,
+      "file": "file:///D:/Fauzan/Projek-Fauzan/Fundamental-nodeJs-mongoDB-expressJs/Materi-NodeJS/nodeJs-bab-logging/src/logging-exception.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 222,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 316,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 123,
+      "method": null,
+      "native": false
+    }
+  ]
+}

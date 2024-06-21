@@ -1,0 +1,35 @@
+{
+  "date": "Sat Jun 08 2024 20:57:04 GMT+0700 (Western Indonesia Time)",
+  "error": "Ups!",
+  "level": "error",
+  "message": "unhandledRejection: Ups!\n  No stack trace",
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 259759.859
+  },
+  "process": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\Fauzan\\Projek-Fauzan\\Fundamental-nodeJs-mongoDB-expressJs\\Materi-NodeJS\\nodeJs-bab-logging\\src\\logging-rejection.js"
+    ],
+    "cwd": "D:\\Fauzan\\Projek-Fauzan\\Fundamental-nodeJs-mongoDB-expressJs\\Materi-NodeJS\\nodeJs-bab-logging\\src",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "gid": null,
+    "memoryUsage": {
+      "arrayBuffers": 10523,
+      "external": 1831445,
+      "heapTotal": 10174464,
+      "heapUsed": 6505800,
+      "rss": 34115584
+    },
+    "pid": 6592,
+    "uid": null,
+    "version": "v20.13.0"
+  },
+  "rejection": true,
+  "trace": []
+}

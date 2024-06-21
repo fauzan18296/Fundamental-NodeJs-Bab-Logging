@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-bab-logging",
+  "version": "1.0.0",
+  "description": "Belajar nodeJs logging",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Ahmad Fauzan",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
